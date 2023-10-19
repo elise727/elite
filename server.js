@@ -15,13 +15,6 @@ app.use(
   })
 );
 
-const auth = {
-  auth: {
-    api_key: process.env.USER,
-    domain: process.env.PASS,
-  },
-};
-
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '/public')));
 app.use(exip().getIpInfoMiddleware);
